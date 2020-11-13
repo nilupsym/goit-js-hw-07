@@ -16,6 +16,6 @@ console.log(`В списке ${categories.length} категории.`);
 
 categories.forEach((category) => {
     const title = category.querySelector('h2');
-    const element = category.querySelectorAll('li')
+    const element = category.querySelectorAll('li');
     console.log(`Категория: ${title.textContent}\nКоличество элементов: ${element.length}`)
 });
