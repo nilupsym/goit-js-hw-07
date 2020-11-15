@@ -1,0 +1,20 @@
+/* Task 7-3 */
+
+.gallery-list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  list-style: none;
+}
+
+.gallery-list-item {
+  display: block;
+  width: 100%;
+  margin: 10px;
+}
+
+.gallery-list-item > img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
