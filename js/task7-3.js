@@ -66,4 +66,8 @@ const galleryImages = images.map(image => galleryImage(image));
 
 galleryList.append(...galleryImages);
 
+galleryList.classList.add('gallery-list');
+
+for (let i = 0; i < galleryImages.length; i += 1) {galleryImages[i].classList.add('gallery-list-item');}
+
 console.log(galleryList);
