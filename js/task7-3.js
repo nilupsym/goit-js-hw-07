@@ -66,4 +66,4 @@ const galleryImages = images.map(image => galleryImage(image));
 
 galleryList.append(...galleryImages);
 
-galleryList.style.listStyle = 'none';
+console.log(galleryList);
