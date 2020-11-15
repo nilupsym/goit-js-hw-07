@@ -1,0 +1,19 @@
+body {
+  background-color: #ffffff;
+  list-style: none;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+li:not(:last-child) {
+  margin-right: 20px;
+}
